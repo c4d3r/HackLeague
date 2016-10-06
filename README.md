@@ -12,3 +12,5 @@ The points are ranked accordingly:
 | 5 | [Add context menu functionality to search a word directly in Bing/Google](./SearchContextMenu) | +50 |
 | 6 | Add configuration page to your extension | +50 |
 | 7 | [Create an extension making use of an external API (e.g. doing sentiment analysis on a webpage)](./Sentiment) | +220 |
+
+[Medium tutorial and explanation](https://medium.com/@maximgeerinck/creating-a-microsoft-edge-extension-77798682bbc9#.3jgfygowf)
