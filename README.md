@@ -2,6 +2,7 @@
 This project was created to demonstrate the exercises that we were asked to solve during the Microsoft HackLeague (Brussels)
 
 The points are ranked accordingly:
+
 | Number | Assignment | Points |
 | ------ | ---------- | ------ |
 | 1 | [Install the boilerplate extension in Edge](./EdgeQRCode-Extension) | +10 |
