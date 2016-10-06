@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Search Google",
+  "version": "1.0.0",
+
+  "description": "An Edge extension that will allow you to select text and search it on google instantly",
+  "author": "Maxim Geerinck & Xavier Geerinck",
+
+  "icons": { 
+    "16": "icon/icon16.png",
+    "32": "icon/icon32.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+
+  "permissions": ["*://*/*", "notifications",  "activeTab", "tabs", "contextMenus", "background", "webNavigation"],
+
+  "background": {
+    "scripts": ["index.js"],
+    "persistent": true
+  }
+}
