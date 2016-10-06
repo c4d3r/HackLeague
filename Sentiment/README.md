@@ -1,0 +1,5 @@
+For the sentiment analysis, we made use of the cognitive services of Microsoft. This just requires us to create a subscriber key ( which is rate limited to 5000 calls / month, for developing reasons and most likely to help Microsoft train their models ;) ).
+
+Once this subscription key has been acquired, we can call their API through a POST call that sends 3 parameters to their service (the id, the language and our text). They will then do the progressing and return us a response stating the sentiment of the text in a normalised result (a value between 0 and 1 where 0 is sad and 1 is happy).
+
+In edge we created a extension that will call this service from as soon as we click on the extension once it is loaded. This will utilise the Fetch API and send a call to the Microsoft services. After this call we then tell our fetch api that the result is a text object so that we are able to display it in our alert box. Please note however that we are also able to automatically parse this result by telling our fetch api to transform it into a JSON object through .json().
